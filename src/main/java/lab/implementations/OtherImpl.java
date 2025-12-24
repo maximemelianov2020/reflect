@@ -1,4 +1,13 @@
 package lab.implementations;
 
-public class OtherImpl {
+import lab.interfaces.SomeInterface;
+
+/**
+ * Другая реализация SomeInterface, выводящая "B".
+ */
+public class OtherImpl implements SomeInterface {
+    @Override
+    public void doSomething() {
+        System.out.print("B");
+    }
 }
