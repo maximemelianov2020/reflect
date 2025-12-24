@@ -1,4 +1,8 @@
 package lab.interfaces;
 
-public class SomeInterface {
+/**
+ * Пример интерфейса с методом doSomething.
+ */
+public interface SomeInterface {
+    void doSomething();
 }
